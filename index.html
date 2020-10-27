@@ -28,7 +28,7 @@
                     <input type="text" id="descriptionInput" class="form-control" placeholder="Description">
                 </div>
                 <div class="col col-lg-2">
-                    <input type="text" id="dateInput" name="date" class="form-control datepicker" value="10/27/2020">
+                    <input type="text" id="dateInput" name="date" class="form-control datepicker" value="2020-10-27">
                 </div>
                 <div class="col col-lg-2">
                     <select class="custom-select" id="caseType">
@@ -48,5 +48,10 @@
         </div>
 
         <script src="script.js"></script>
+        <script async defer src="https://apis.google.com/js/api.js"
+              onload="this.onload=function(){};handleClientLoad()"
+            onreadystatechange="if (this.readyState === 'complete') this.onload()">
+        </script>
+
     </body>
 </html>
