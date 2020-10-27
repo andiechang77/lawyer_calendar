@@ -99,10 +99,10 @@ function submit() {
         "description": description,
         "location": "Taipei",
         "start": {
-            "datetime": date + "T00:00:00.000+08:00"
+            "dateTime": date + "T00:00:00.000+08:00"
         },
         "end": {
-            "datetime": date + "T23:59:59.000+08:00"
+            "dateTime": date + "T23:59:59.000+08:00"
         }
 
     };
