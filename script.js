@@ -105,7 +105,7 @@ function submit() {
             "datetime": date + "T23:59:59.000+08:00"
         }
 
-    }
+    };
     var request = gapi.client.calendar.events.insert({
         'calendarId': 'primary',
         'resource': resource
